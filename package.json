@@ -1,0 +1,21 @@
+{
+  "name": "island-cli-init",
+  "version": "1.0.0",
+  "description": "island 博客默认主题",
+  "main": "index.js",
+  "scripts": {
+    "start": "isalnd dev",
+    "build": "isalnd build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhw2590582/island-cli-init.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhw2590582/island-cli-init/issues"
+  },
+  "homepage": "https://github.com/zhw2590582/island-cli-init#readme"
+}
