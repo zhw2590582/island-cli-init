@@ -1,0 +1,181 @@
+@import './utils/variable';
+
+.post-layout .container {
+    width: 780px;
+}
+
+.post-item {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    .post-top {
+        height: 150px;
+        margin-bottom: 20px;
+        .poster {
+            display: block;
+            width: 100%;
+            height: 100%;
+            background-color: #ececec;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+    }
+    .post-left {
+        .title {
+            color: rgba(0, 0, 0, 0.8);
+            font-size: 24px;
+            line-height: 1.3;
+            min-height: 35px;
+            &:hover {
+                color: #000;
+            }
+        }
+        .content {
+            color: rgba(0,0,0,.6);
+            font-size: 15px;
+            min-height: 45px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+        .meta {
+            color: rgba(0,0,0,.5);
+            font-size: 13px;
+            min-height: 20px;
+            .topic {
+                color: rgba(0,0,0,.5);
+                display: inline-block;
+                position: relative;
+                &:hover {
+                    text-decoration: underline;
+                    color: rgba(0,0,0,.7);
+                }
+            }
+            .sticky {
+                font-size: 20px;
+            }
+        }
+    }
+    .post-right {
+        width: 160px;
+        padding-left: 20px;
+        .poster {
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            background-color: #ececec;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+    }
+}
+
+.post-loading {
+    width: 100%;
+    .load {
+        height: 15px;
+        margin-bottom: 10px;
+        background: #f1f1f1;
+    }
+}
+
+.loadEnd {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+.post-page {
+    position: relative;
+    margin-top: 50px;
+    .post-poster {
+        margin-bottom: 20px;
+    }
+    .post-header {
+        margin-bottom: 30px;
+        .title {
+            color: #000;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .meta {
+            color: rgba(0,0,0,.5);
+            font-size: 14px;
+            .topic {
+                color: rgba(0,0,0,.5);
+                display: inline-block;
+                position: relative;
+                &:hover {
+                    text-decoration: underline;
+                    color: rgba(0,0,0,.7);
+                }
+            }
+        }
+    }
+    .post-content {
+        min-height: 500px;
+        margin-bottom: 50px;
+        .load {
+            margin-bottom: 20px;
+        }
+    }
+    .post-related {
+        margin-bottom: 50px;
+        .related-item {
+            padding: 0 6px;
+            .poster {
+                display: block;
+                width: 100%;
+                height: 150px;
+                background-color: #ececec;
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                margin-bottom: 10px;
+            }
+            .title {
+                display: inline-block;
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+            .time {
+                color: rgba(0, 0, 0, 0.6);
+                font-size: 14px;
+            }
+        }
+    }
+    .post-nav {
+        position: absolute;
+        width: 140px;
+        top: 80px;
+        left: 50%;
+        margin-left: -(780px / 2 + 140px + 40px);
+
+        &.fixed {
+            position: fixed;
+        }
+
+        .poster {
+            width: 100%;
+            height: 180px;
+            margin-bottom: 30px;
+            background-color: #ececec;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,.08);
+        }
+
+        .nav-list {
+            .nav-item {
+                display: block;
+                font-size: 13px;
+                font-weight: bold;
+                border-bottom: 1px solid rgba(0,0,0,.05);
+                margin-bottom: 10px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+}
