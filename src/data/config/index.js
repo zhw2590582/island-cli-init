@@ -5,7 +5,8 @@ const config = {
   dev: {
     port: 3000,
     outputPath: path.join(__dirname, "./"),
-    publicPath: "/"
+    publicPath: "/",
+    devPaths: {},
   },
   web: {
     title: "老赵茶馆 - 少年，你有多忧伤！",
