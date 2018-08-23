@@ -12,7 +12,7 @@ const config = {
     title: "Just another Island blog",
     keywords: "island, blog",
     description: "Just another Island blog",
-    copyright: "© 2018 All Rights Reserved.	Power By Island",
+    copyright: "© 2018 All Rights Reserved.	Power By <a href=\"https://github.com/zhw2590582/island-cli\">Island</a>",
     author: {
       name: "Harvey Zack",
       title: "A designer and front-end engineer",
