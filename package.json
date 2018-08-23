@@ -4,18 +4,25 @@
   "description": "island 博客默认主题",
   "main": "index.js",
   "scripts": {
-    "start": "isalnd dev",
-    "build": "isalnd build"
+    "start": "island dev",
+    "build": "island build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zhw2590582/island-cli-init.git"
   },
-  "keywords": [],
+  "keywords": [
+    "island",
+    "cli",
+    "init"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zhw2590582/island-cli-init/issues"
   },
-  "homepage": "https://github.com/zhw2590582/island-cli-init#readme"
+  "homepage": "https://github.com/zhw2590582/island-cli-init#readme",
+  "dependencies": {
+    "island-cli": "^1.0.0"
+  }
 }
