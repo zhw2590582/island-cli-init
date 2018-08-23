@@ -6,8 +6,7 @@ const config = {
   dev: {
     port: 3000,
     outputPath: path.join(process.cwd(), "./"),
-    publicPath: "/",
-    devPaths: {},
+    publicPath: "/"
   },
   web: {
     title: "老赵茶馆 - 少年，你有多忧伤！",
