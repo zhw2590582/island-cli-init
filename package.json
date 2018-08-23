@@ -17,7 +17,9 @@
     "cli",
     "init"
   ],
-  "author": "",
+  "authors": [
+    "Harvey Zack <laozhaochaguan@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zhw2590582/island-cli-init/issues"
