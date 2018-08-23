@@ -1,7 +1,8 @@
 const path = require("path");
-const utils = require("../../utils/configWrap");
+const utils = require("./Wrap");
 
 const config = {
+  theme: "default",
   dev: {
     port: 3000,
     outputPath: path.join(__dirname, "./"),
