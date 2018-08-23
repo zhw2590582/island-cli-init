@@ -1,7 +1,7 @@
 {
   "name": "island-cli-init",
   "version": "1.0.0",
-  "description": "island 博客默认主题",
+  "description": "Island blog initialization framework",
   "main": "index.js",
   "scripts": {
     "start": "island dev",
@@ -13,6 +13,7 @@
   },
   "keywords": [
     "island",
+    "blog",
     "cli",
     "init"
   ],
@@ -23,6 +24,6 @@
   },
   "homepage": "https://github.com/zhw2590582/island-cli-init#readme",
   "dependencies": {
-    "island-cli": "^1.0.0"
+    "island-cli": "^1.0.1"
   }
 }

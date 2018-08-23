@@ -9,89 +9,73 @@ const config = {
     publicPath: "/"
   },
   web: {
-    title: "老赵茶馆 - 少年，你有多忧伤！",
-    keywords: "老赵, 茶馆, 前端, 代码, 美术, 电影, 音乐, 分享",
-    description: "Hi，老赵其实不老，只是个九零后文艺青年，一枚会设计的前端攻城狮，爱互联网，爱美术，爱游戏，爱电影，爱音乐...",
-    copyright: "© 2018 All Rights Reserved.	Theme by 老赵茶馆",
+    title: "Just another Island blog",
+    keywords: "island, blog",
+    description: "Just another Island blog",
+    copyright: "© 2018 All Rights Reserved.	Power By Island",
     author: {
       name: "Harvey Zack",
-      title: "一枚会设计的前端攻城狮",
-      description: "Hi，老赵其实不老，只是个九零后文艺青年，职业为前端攻城狮，爱互联网，爱美术，爱游戏，爱电影，爱音乐..."
+      title: "A designer and front-end engineer",
+      description: "Hi, I'am Harvey Zack, a designer and front-end engineer from China."
     },
     post: {
       excerpt: 100,
-      pageSize: 5,
-      posterSize: 7,
+      pageSize: 10,
+      posterSize: 20,
       relatedPost: 3
     },
     menus: [
       {
-        name: "关于",
+        name: "About",
         link: "/about.html"
       },
       {
-        name: "归档",
+        name: "Archive",
         link: "/archive.html"
       },
       {
-        name: "留言",
+        name: "Message",
         link: "/message.html"
       },
       {
-        name: "编辑器",
+        name: "Editor",
         link: "/editor.html"
       }
     ],
     socials: [
       {
-        name: "老赵",
-        link: "https://github.com/"
+        name: "weibo",
+        link: "http://weibo.com/qq717995589"
       },
       {
-        name: "老赵",
-        link: "https://github.com/"
+        name: "github",
+        link: "https://github.com/zhw2590582"
       },
       {
-        name: "老赵",
-        link: "https://github.com/"
+        name: "dribbble",
+        link: "https://dribbble.com/HarveyZack"
       },
       {
-        name: "老赵",
-        link: "https://github.com/"
-      },
-      {
-        name: "老赵",
-        link: "https://github.com/"
+        name: "twitter",
+        link: "https://twitter.com/HarveyZack1990"
       }
     ],
     links: [
       {
-        name: "老",
-        link: "https://github.com/"
+        name: "weibo",
+        link: "http://weibo.com/qq717995589"
       },
       {
-        name: "老赵",
-        link: "https://github.com/"
+        name: "github",
+        link: "https://github.com/zhw2590582"
       },
       {
-        name: "老赵茶",
-        link: "https://github.com/"
+        name: "dribbble",
+        link: "https://dribbble.com/HarveyZack"
       },
       {
-        name: "老",
-        link: "https://github.com/"
-      },
-      {
-        name: "老赵",
-        link: "https://github.com/"
-      },
-      {
-        name: "老赵",
-        link: "https://github.com/"
-      },
-      {
-        name: "老赵",
-        link: "https://github.com/"
+        name: "twitter",
+        link: "https://twitter.com/HarveyZack1990"
       }
     ]
   }

@@ -3,5 +3,5 @@ module.exports = {
     style: '',
     poster: '',
     topic: 'hello, world',
-    sticky: true
+    sticky: false
   }

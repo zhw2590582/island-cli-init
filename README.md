@@ -1,2 +1,7 @@
-# island-cli-default
-island 博客默认主题
+# island-cli-init
+
+> Island blog initialization framework
+
+## License
+
+MIT © [Harvey Zack](https://www.zhw-island.com/)
