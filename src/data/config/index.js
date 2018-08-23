@@ -1,11 +1,11 @@
 const path = require("path");
-const utils = require("./Wrap");
+const wrap = require("./wrap");
 
 const config = {
   theme: "default",
   dev: {
     port: 3000,
-    outputPath: path.join(__dirname, "./"),
+    outputPath: path.join(process.cwd(), "./"),
     publicPath: "/",
     devPaths: {},
   },
@@ -25,7 +25,7 @@ const config = {
       posterSize: 7,
       relatedPost: 3
     },
-    menu: [
+    menus: [
       {
         name: "关于",
         link: "/about.html"
@@ -43,7 +43,7 @@ const config = {
         link: "/editor.html"
       }
     ],
-    social: [
+    socials: [
       {
         name: "老赵",
         link: "https://github.com/"
@@ -98,4 +98,4 @@ const config = {
   }
 };
 
-module.exports = utils(config);
+module.exports = wrap(config);
