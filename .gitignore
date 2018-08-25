@@ -7,3 +7,4 @@ dist
 backup
 package-lock.json
 yarn.lock
+CNAME
