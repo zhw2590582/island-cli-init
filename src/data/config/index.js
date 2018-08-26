@@ -1,5 +1,6 @@
 const path = require("path");
 const wrap = require("./wrap");
+const isProd = process.env.NODE_ENV === "production";
 
 const config = {
   theme: "default",
