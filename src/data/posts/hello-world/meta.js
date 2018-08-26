@@ -1,6 +1,6 @@
 module.exports = {
     title: 'Hello World',
-    style: '',
+    type: '',
     poster: '',
     topic: 'hello, world',
     sticky: false
